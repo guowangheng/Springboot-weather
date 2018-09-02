@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com-weather:com-weather-model:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com-weather/com-weather-model/unknown/com-weather-model-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com-weather/com-weather-model/unknown/com-weather-model-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com-weather/com-weather-model/unknown/com-weather-model-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

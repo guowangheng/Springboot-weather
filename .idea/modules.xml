@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Springboot-weather.iml" filepath="$PROJECT_DIR$/.idea/Springboot-weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-weather-basic/com-weather-basic.iml" filepath="$PROJECT_DIR$/com-weather-basic/com-weather-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-weather-model/com-weather-model.iml" filepath="$PROJECT_DIR$/com-weather-model/com-weather-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-weather-parent/com-weather-parent.iml" filepath="$PROJECT_DIR$/com-weather-parent/com-weather-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-weather-service/com-weather-service.iml" filepath="$PROJECT_DIR$/com-weather-service/com-weather-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-weather-utils/com-weather-utils.iml" filepath="$PROJECT_DIR$/com-weather-utils/com-weather-utils.iml" />
+    </modules>
+  </component>
+</project>
