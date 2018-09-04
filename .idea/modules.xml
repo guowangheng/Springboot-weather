@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Springboot-weather.iml" filepath="$PROJECT_DIR$/.idea/Springboot-weather.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-weather-basic/com-weather-basic.iml" filepath="$PROJECT_DIR$/com-weather-basic/com-weather-basic.iml" />
+      <module fileurl="file://G:\study\Springboot-weather\com-weather-basic\com-weather-basic.iml" filepath="G:\study\Springboot-weather\com-weather-basic\com-weather-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-weather-model/com-weather-model.iml" filepath="$PROJECT_DIR$/com-weather-model/com-weather-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-weather-parent/com-weather-parent.iml" filepath="$PROJECT_DIR$/com-weather-parent/com-weather-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-weather-service/com-weather-service.iml" filepath="$PROJECT_DIR$/com-weather-service/com-weather-service.iml" />

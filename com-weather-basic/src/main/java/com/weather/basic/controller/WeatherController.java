@@ -20,9 +20,10 @@ public class WeatherController {
     public ModelAndView getCityData(Model model, @PathVariable("citykey") String citykey){
         Weather weather = weatherService.getWeatherByCityId(citykey).getData();
         model.addAttribute("data", weather);
+        model.addAttribute("title", "WeanGuo");
         model.addAttribute("citykey",citykey);
         model.addAttribute("cityList",WeatherFlushJob.cityList);
-        return new ModelAndView("/index","modelIndex",model);
+        return new ModelAndView("/index","reportModel",model);
     }
 
 }
