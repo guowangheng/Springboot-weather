@@ -1,0 +1,8 @@
+com\weather\eureka\client\configuration\ComWeatherBasicApplication.class
+com\weather\eureka\client\controller\WeatherController.class
+com\weather\eureka\client\controller\TestWeatherController.class
+com\weather\eureka\client\controller\WeatherServiceImpl.class
+com\weather\eureka\client\controller\TestController.class
+com\weather\eureka\client\configuration\ConfigurationContext.class
+com\weather\eureka\client\controller\WeatherService.class
+com\weather\eureka\client\job\WeatherFlushJob.class

@@ -1,11 +1,8 @@
-package com.weather.basic.controller;
+package com.weather.eureka.client.controller;
 
 import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.databind.DeserializationConfig;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.weather.model.City;
 import com.weather.model.WeatherResponse;
-import com.weather.utils.XMLParseUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

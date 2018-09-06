@@ -6,8 +6,8 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.weather.*"})
 @EnableEurekaServer
+@ComponentScan(basePackages = {"com.weather.*"})
 public class WeatherEurekaServerApplication {
 
 	public static void main(String[] args) {

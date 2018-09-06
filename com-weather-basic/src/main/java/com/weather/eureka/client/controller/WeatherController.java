@@ -1,6 +1,6 @@
-package com.weather.basic.controller;
+package com.weather.eureka.client.controller;
 
-import com.weather.basic.job.WeatherFlushJob;
+import com.weather.eureka.client.job.WeatherFlushJob;
 import com.weather.model.Weather;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
@@ -22,7 +22,7 @@ public class WeatherController {
         model.addAttribute("data", weather);
         model.addAttribute("title", "WeanGuo");
         model.addAttribute("citykey",citykey);
-        model.addAttribute("cityList",WeatherFlushJob.cityList);
+        model.addAttribute("cityList", WeatherFlushJob.cityList);
         return new ModelAndView("/index","reportModel",model);
     }
 

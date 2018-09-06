@@ -1,4 +1,4 @@
-package com.weather.basic.job;
+package com.weather.eureka.client.job;
 
 import com.weather.model.City;
 import com.weather.model.XML;
@@ -17,8 +17,8 @@ import javax.xml.bind.JAXBException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static com.weather.basic.controller.WeatherServiceImpl.SAVE_TIME;
-import static com.weather.basic.controller.WeatherServiceImpl.WEATHER_URL;
+import static com.weather.eureka.client.controller.WeatherServiceImpl.SAVE_TIME;
+import static com.weather.eureka.client.controller.WeatherServiceImpl.WEATHER_URL;
 
 @Configuration
 @Component

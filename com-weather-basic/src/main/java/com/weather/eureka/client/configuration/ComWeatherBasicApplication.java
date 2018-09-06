@@ -1,4 +1,4 @@
-package com.weather.basic.configuration;
+package com.weather.eureka.client.configuration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

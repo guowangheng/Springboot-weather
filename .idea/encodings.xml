@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/com-weather-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-weather-eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-weather-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-weather-eureka-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-weather-eureka-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-weather-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-weather-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-weather-service" charset="UTF-8" />

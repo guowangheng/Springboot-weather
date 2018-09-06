@@ -7,13 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="com-weather-basic" />
+        <module name="com-weather-eureka-server" />
+        <module name="com-weather-eureka-service" />
+        <module name="com-weather-eureka-web" />
         <module name="com-weather-model" />
-        <module name="com-weather-service" />
         <module name="com-weather-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="com-weather-basic" target="1.8" />
+      <module name="com-weather-eureka-client" target="1.8" />
+      <module name="com-weather-eureka-server" target="1.8" />
+      <module name="com-weather-eureka-service" target="1.8" />
+      <module name="com-weather-eureka-web" target="1.8" />
       <module name="com-weather-model" target="1.8" />
       <module name="com-weather-parent" target="1.8" />
       <module name="com-weather-service" target="1.8" />

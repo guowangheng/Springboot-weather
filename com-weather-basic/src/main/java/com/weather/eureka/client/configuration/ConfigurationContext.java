@@ -1,6 +1,6 @@
-package com.weather.basic.configuration;
+package com.weather.eureka.client.configuration;
 
-import com.weather.basic.job.WeatherFlushJob;
+import com.weather.eureka.client.job.WeatherFlushJob;
 import org.quartz.Trigger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;

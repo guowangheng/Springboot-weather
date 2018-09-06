@@ -1,4 +1,4 @@
-package com.weather.basic.controller;
+package com.weather.eureka.client.controller;
 
 import com.weather.model.WeatherResponse;
 
