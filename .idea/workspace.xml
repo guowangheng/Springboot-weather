@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b08efce-5b96-4e87-bb1c-b6e7e689dd53" name="Default" comment="update eureka">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-service/target/classes/com/weather/eureka/client/configuration/WeatherEurekaServerApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-service/target/com-weather-eureka-server-0.0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-service/target/com-weather-eureka-server-0.0.1-SNAPSHOT.jar.original" afterPath="" />
+    <list default="true" id="8b08efce-5b96-4e87-bb1c-b6e7e689dd53" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-service/target/maven-archiver/pom.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-service/target/surefire-reports/TEST-com.weather.eureka.client.configuration.ComWeatherBasicApplicationTests.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-service/target/surefire-reports/com.weather.eureka.client.configuration.ComWeatherBasicApplicationTests.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/classes/com/weather/eureka/client/configuration/ComWeatherBasicApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/classes/com/weather/eureka/client/configuration/ConfigurationContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/classes/com/weather/eureka/client/configuration/WeatherEurekaClientApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/classes/com/weather/eureka/client/controller/TestWeatherController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/classes/com/weather/eureka/client/controller/WeatherService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/classes/com/weather/eureka/client/controller/WeatherServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/classes/com/weather/eureka/client/job/WeatherFlushJob.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/com-weather-eureka-client-0.0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/com-weather-eureka-client-0.0.1-SNAPSHOT.jar.original" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/maven-archiver/pom.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-server/target/classes/com/weather/eureka/client/configuration/WeatherEurekaServerApplication.class" afterPath="$PROJECT_DIR$/com-weather-eureka-server/target/classes/com/weather/eureka/client/configuration/WeatherEurekaServerApplication.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-weather-eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
@@ -26,19 +14,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-service/target/classes/com/weather/eureka/client/job/WeatherFlushJob.class" afterPath="$PROJECT_DIR$/com-weather-eureka-service/target/classes/com/weather/eureka/client/job/WeatherFlushJob.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/classes/com/weather/eureka/client/controller/TestController.class" afterPath="$PROJECT_DIR$/com-weather-eureka-web/target/classes/com/weather/eureka/client/controller/TestController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-basic/src/main/java/com/weather/eureka/client/configuration/ComWeatherBasicApplication.java" afterPath="$PROJECT_DIR$/com-weather-basic/src/main/java/com/weather/eureka/client/configuration/ComWeatherBasicApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-basic/src/main/java/com/weather/eureka/client/controller/TestController.java" afterPath="$PROJECT_DIR$/com-weather-basic/src/main/java/com/weather/eureka/client/controller/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-server/pom.xml" afterPath="$PROJECT_DIR$/com-weather-eureka-server/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-weather-eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-server/target/surefire-reports/TEST-com.weather.eureka.client.configuration.ComWeatherBasicApplicationTests.xml" afterPath="$PROJECT_DIR$/com-weather-eureka-server/target/surefire-reports/TEST-com.weather.eureka.client.configuration.ComWeatherBasicApplicationTests.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-server/target/surefire-reports/com.weather.eureka.client.configuration.ComWeatherBasicApplicationTests.txt" afterPath="$PROJECT_DIR$/com-weather-eureka-server/target/surefire-reports/com.weather.eureka.client.configuration.ComWeatherBasicApplicationTests.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-service/pom.xml" afterPath="$PROJECT_DIR$/com-weather-eureka-service/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-weather-eureka-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-weather-eureka-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-weather-eureka-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-web/pom.xml" afterPath="$PROJECT_DIR$/com-weather-eureka-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-web/src/main/java/com/weather/eureka/client/controller/TestController.java" afterPath="$PROJECT_DIR$/com-weather-eureka-web/src/main/java/com/weather/eureka/client/controller/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-web/src/test/java/com/weather/eureka/client/configuration/ComWeatherBasicApplicationTests.java" afterPath="$PROJECT_DIR$/com-weather-eureka-web/src/test/java/com/weather/eureka/client/configuration/ComWeatherBasicApplicationTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-weather-eureka-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-weather-eureka-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-weather-eureka-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-weather-eureka-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
@@ -1152,7 +1133,7 @@
       <workItem from="1536213625508" duration="7801000" />
       <workItem from="1536231635654" duration="4097000" />
       <workItem from="1536239508885" duration="3928000" />
-      <workItem from="1536248494987" duration="1996000" />
+      <workItem from="1536248494987" duration="2101000" />
     </task>
     <task id="LOCAL-00001" summary="update eureka">
       <created>1536247262721</created>
@@ -1161,7 +1142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536247262721</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update eureka">
+      <created>1536250568676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536250568677</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1197,7 +1185,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68801000" />
+    <option name="totallyTimeSpent" value="68906000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1228,11 +1216,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38569754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38569754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24618992" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28347734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28347734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
