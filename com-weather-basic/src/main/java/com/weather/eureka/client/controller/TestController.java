@@ -1,15 +1,11 @@
 package com.weather.eureka.client.controller;
 
-import org.quartz.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
 
-    @Autowired
+    /*@Autowired
     private JobDetail jobDetail;
 
     @Autowired
@@ -38,6 +34,6 @@ public class TestController {
         // 按新的trigger重新设置job执行
         scheduler.rescheduleJob(cronTrigger.getKey(), trigger);
         return prod+"-这是quartz测试";
-    }
+    }*/
 
 }
