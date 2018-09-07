@@ -1,5 +1,5 @@
-G:\study\Springboot-weather\com-weather-eureka-service\src\main\java\com\weather\eureka\client\controller\WeatherServiceImpl.java
-G:\study\Springboot-weather\com-weather-eureka-service\src\main\java\com\weather\eureka\client\configuration\WeatherEurekaServiceApplication.java
-G:\study\Springboot-weather\com-weather-eureka-service\src\main\java\com\weather\eureka\client\controller\WeatherService.java
-G:\study\Springboot-weather\com-weather-eureka-service\src\main\java\com\weather\eureka\client\job\WeatherFlushJob.java
-G:\study\Springboot-weather\com-weather-eureka-service\src\main\java\com\weather\eureka\client\configuration\ConfigurationContext.java
+G:\study\Springboot-weather\Springboot-weather\com-weather-eureka-service\src\main\java\com\weather\eureka\client\configuration\ConfigurationContext.java
+G:\study\Springboot-weather\Springboot-weather\com-weather-eureka-service\src\main\java\com\weather\eureka\client\job\WeatherFlushJob.java
+G:\study\Springboot-weather\Springboot-weather\com-weather-eureka-service\src\main\java\com\weather\eureka\client\controller\WeatherService.java
+G:\study\Springboot-weather\Springboot-weather\com-weather-eureka-service\src\main\java\com\weather\eureka\client\controller\WeatherServiceImpl.java
+G:\study\Springboot-weather\Springboot-weather\com-weather-eureka-service\src\main\java\com\weather\eureka\client\configuration\WeatherEurekaServiceApplication.java
