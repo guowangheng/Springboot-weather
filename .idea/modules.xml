@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Springboot-weather.iml" filepath="$PROJECT_DIR$/.idea/Springboot-weather.iml" />
-      <module fileurl="file://$PROJECT_DIR$/com-weather-basic/com-weather-basic.iml" filepath="$PROJECT_DIR$/com-weather-basic/com-weather-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-weather-eureka-server/com-weather-eureka-server.iml" filepath="$PROJECT_DIR$/com-weather-eureka-server/com-weather-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-weather-eureka-service/com-weather-eureka-service.iml" filepath="$PROJECT_DIR$/com-weather-eureka-service/com-weather-eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-weather-eureka-web/com-weather-eureka-web.iml" filepath="$PROJECT_DIR$/com-weather-eureka-web/com-weather-eureka-web.iml" />

@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/com-weather-eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/com-weather-eureka-service/pom.xml" />
         <option value="$PROJECT_DIR$/com-weather-eureka-web/pom.xml" />
+        <option value="$PROJECT_DIR$/com-weather-eureka-data/pom.xml" />
       </list>
     </option>
   </component>
