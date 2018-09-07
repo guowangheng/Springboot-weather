@@ -4,4 +4,3 @@ com\weather\model\WeatherResponse.class
 com\weather\model\Forecast.class
 com\weather\model\Yeaterday.class
 com\weather\model\City.class
-com\weather\model\XML.class

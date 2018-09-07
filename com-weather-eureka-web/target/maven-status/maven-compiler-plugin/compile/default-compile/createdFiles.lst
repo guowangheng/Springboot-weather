@@ -1,3 +1,4 @@
 com\weather\eureka\client\controller\WeatherController.class
 com\weather\eureka\client\configuration\WeatherEurekaWebApplication.class
 com\weather\eureka\client\controller\TestController.class
+com\weather\eureka\client\service\WeatherService.class

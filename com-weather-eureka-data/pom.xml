@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com-weather</groupId>
-	<artifactId>com-weather-eureka-web</artifactId>
+	<artifactId>com-weather-eureka-data</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>com-weather-eureka-web</name>
+	<name>com-weather-eureka-data</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -27,6 +27,11 @@
 	<dependencies>
 
 		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+
+		<dependency>
 			<groupId>com-weather</groupId>
 			<artifactId>com-weather-model</artifactId>
             <version>1.0-SNAPSHOT</version>
@@ -37,16 +42,6 @@
             <artifactId>com-weather-utils</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
 
         <!--jar-->
         <dependency>
@@ -92,7 +87,6 @@
 			<version>${springloaded.version}</version>
 			<scope>provided</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -109,7 +103,7 @@
 					</dependency>
 				</dependencies>
 				<configuration>
-					<mainClass>com.weather.eureka.client.configuration.WeatherEurekaWebApplication</mainClass>
+					<mainClass>com.weather.eureka.client.configuration.WeatherEurekaDataApplication</mainClass>
 					<layout>JAR</layout>
 					<jvmArguments>-Dfile.encoding=UTF-8</jvmArguments>
 				</configuration>
