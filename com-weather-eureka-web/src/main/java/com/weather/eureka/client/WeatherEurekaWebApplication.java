@@ -1,13 +1,14 @@
-package com.weather.eureka.client.configuration;
+package com.weather.eureka.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@ComponentScan(basePackages = {"com.weather.*"})
+@EnableFeignClients
 public class WeatherEurekaWebApplication {
 
 	public static void main(String[] args) {
