@@ -105,6 +105,7 @@
 				<configuration>
 					<mainClass>com.weather.eureka.client.configuration.WeatherEurekaServiceApplication</mainClass>
 					<layout>JAR</layout>
+					<fork>false</fork>
 					<jvmArguments>-Dfile.encoding=UTF-8</jvmArguments>
 				</configuration>
 				<executions>
