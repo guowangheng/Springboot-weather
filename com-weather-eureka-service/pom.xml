@@ -103,7 +103,7 @@
 					</dependency>
 				</dependencies>
 				<configuration>
-					<mainClass>com.weather.eureka.client.configuration.WeatherEurekaServiceApplication</mainClass>
+					<mainClass>com.weather.eureka.client.WeatherEurekaServiceApplication</mainClass>
 					<layout>JAR</layout>
 					<fork>false</fork>
 					<jvmArguments>-Dfile.encoding=UTF-8</jvmArguments>

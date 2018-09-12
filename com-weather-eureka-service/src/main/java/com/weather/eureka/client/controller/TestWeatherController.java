@@ -9,13 +9,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/getWeather")
 public class TestWeatherController {
 
     @Autowired
     private WeatherService weatherService;
 
-    @RequestMapping(value = "/cityId/{cityId}",method = RequestMethod.GET)
+    @RequestMapping(value = "/getWeather/cityId/{cityId}",method = RequestMethod.GET)
     public WeatherResponse getWeatherById(@PathVariable("cityId")String cityId){
         System.out.println("diaoyong....."+cityId);
         WeatherResponse weatherResponse = weatherService.getWeatherByCityId(cityId);
