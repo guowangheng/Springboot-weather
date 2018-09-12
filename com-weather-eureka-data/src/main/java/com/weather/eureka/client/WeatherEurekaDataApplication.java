@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@ComponentScan(basePackages = {"com.weather.eureka.client"})
 public class WeatherEurekaDataApplication {
 
 	public static void main(String[] args) {
