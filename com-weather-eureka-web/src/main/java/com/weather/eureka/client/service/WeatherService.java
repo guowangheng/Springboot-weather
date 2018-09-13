@@ -20,7 +20,7 @@ public interface WeatherService {
     @GetMapping("/getWeather/cityId/{cityId}")
     WeatherResponse getWeatherByCityId(@PathVariable("cityId") String cityId);
 
-    @RequestMapping(value="/data/getCityList", method = RequestMethod.GET)
+    @RequestMapping(value="/data/getCityList", method = RequestMethod.POST)
     List<City> getCityList();
 
 }

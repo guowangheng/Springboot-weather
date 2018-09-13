@@ -18,14 +18,14 @@ public class WeatherController {
     @Autowired
     private WeatherService weatherService;
 
-    @GetMapping("/test/cityData/{citykey}")
+    @GetMapping("/cityData/{citykey}")
     public ModelAndView getCityData(Model model, @PathVariable("citykey") String citykey){
         WeatherResponse weatherResponse = weatherService.getWeatherByCityId(citykey);
         List<City> cityList = weatherService.getCityList();
         model.addAttribute("title","WeanGuo");
         model.addAttribute("cityList",cityList);
         model.addAttribute("citykey",citykey);
-        model.addAttribute("data",weatherResponse);
+        model.addAttribute("data",weatherResponse.getData());
         ModelAndView modelAndView = new ModelAndView("/index","reportModel",model);
         return modelAndView;
 
