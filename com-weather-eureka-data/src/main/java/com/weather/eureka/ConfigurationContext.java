@@ -1,4 +1,4 @@
-package com.weather.eureka.client.configuration;
+package com.weather.eureka;
 
 import com.weather.eureka.client.job.WeatherFlushJob;
 import org.quartz.Trigger;

@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com-weather</groupId>
-	<artifactId>com-weather-eureka-server</artifactId>
+	<artifactId>com-weather-config-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>com-weather-eureka-server</name>
+	<name>com-weather-config-client</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -28,14 +28,28 @@
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
-		<dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-client</artifactId>
+        </dependency>
+
+        <!-- 动态刷新配置
+      更新了Git仓库中的配置文件，那如何让config-client能够及时感知到呢?
+      动态刷新配置
+   -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
 			<groupId>com-weather</groupId>
 			<artifactId>com-weather-model</artifactId>
             <version>1.0-SNAPSHOT</version>
-		</dependency>
+        </dependency>
 
         <dependency>
             <groupId>com-weather</groupId>
@@ -79,6 +93,7 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
         </dependency>
+
 		<!--热部署-->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -102,8 +117,9 @@
 					</dependency>
 				</dependencies>
 				<configuration>
-					<mainClass>com.weather.eureka.WeatherEurekaServerApplication</mainClass>
+					<mainClass>com.weather.eureka.client.WeatherConfigClientApplication</mainClass>
 					<layout>JAR</layout>
+					<fork>false</fork>
 					<jvmArguments>-Dfile.encoding=UTF-8</jvmArguments>
 				</configuration>
 				<executions>
