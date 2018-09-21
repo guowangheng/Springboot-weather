@@ -1,4 +1,4 @@
-package com.weather.eureka.client.configuration;
+package com.weather.eureka;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

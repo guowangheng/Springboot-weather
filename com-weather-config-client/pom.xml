@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com-weather</groupId>
-	<artifactId>com-weather-eureka-web</artifactId>
+	<artifactId>com-weather-config-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>com-weather-eureka-web</name>
+	<name>com-weather-config-client</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -33,26 +33,29 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <artifactId>spring-cloud-config-client</artifactId>
         </dependency>
 
-		<dependency>
+        <!-- 动态刷新配置
+      更新了Git仓库中的配置文件，那如何让config-client能够及时感知到呢?
+      动态刷新配置
+   -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
 			<groupId>com-weather</groupId>
 			<artifactId>com-weather-model</artifactId>
             <version>1.0-SNAPSHOT</version>
-		</dependency>
+        </dependency>
 
         <dependency>
             <groupId>com-weather</groupId>
             <artifactId>com-weather-utils</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-feign</artifactId>
-			<version>1.4.5.RELEASE</version>
-		</dependency>
 
         <!--jar-->
         <dependency>
@@ -98,7 +101,6 @@
 			<version>${springloaded.version}</version>
 			<scope>provided</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -115,7 +117,7 @@
 					</dependency>
 				</dependencies>
 				<configuration>
-					<mainClass>com.weather.eureka.client.WeatherEurekaWebApplication</mainClass>
+					<mainClass>com.weather.eureka.client.WeatherConfigClientApplication</mainClass>
 					<layout>JAR</layout>
 					<fork>false</fork>
 					<jvmArguments>-Dfile.encoding=UTF-8</jvmArguments>

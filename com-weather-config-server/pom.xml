@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com-weather</groupId>
-	<artifactId>com-weather-eureka-web</artifactId>
+	<artifactId>com-weather-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>com-weather-eureka-web</name>
+	<name>com-weather-config-server</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -33,26 +33,8 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
-
-		<dependency>
-			<groupId>com-weather</groupId>
-			<artifactId>com-weather-model</artifactId>
-            <version>1.0-SNAPSHOT</version>
-		</dependency>
-
-        <dependency>
-            <groupId>com-weather</groupId>
-            <artifactId>com-weather-utils</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-feign</artifactId>
-			<version>1.4.5.RELEASE</version>
-		</dependency>
 
         <!--jar-->
         <dependency>
@@ -67,18 +49,7 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-quartz</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.quartz-scheduler</groupId>
-            <artifactId>quartz</artifactId>
-            <version>2.2.1</version>
         </dependency>
 
 		<dependency>
@@ -86,10 +57,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-        </dependency>
 
 		<!--热部署-->
 		<dependency>
@@ -98,7 +65,6 @@
 			<version>${springloaded.version}</version>
 			<scope>provided</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -115,9 +81,9 @@
 					</dependency>
 				</dependencies>
 				<configuration>
-					<mainClass>com.weather.eureka.client.WeatherEurekaWebApplication</mainClass>
+					<mainClass>com.weather.eureka.client.WeatherConfigServerApplication</mainClass>
 					<layout>JAR</layout>
-					<fork>false</fork>
+                    <fork>false</fork>
 					<jvmArguments>-Dfile.encoding=UTF-8</jvmArguments>
 				</configuration>
 				<executions>
