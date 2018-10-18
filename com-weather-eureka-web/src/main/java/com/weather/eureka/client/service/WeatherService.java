@@ -15,7 +15,7 @@ import java.util.List;
  * Created by Guo.WangHeng on 2018/9/7.
  */
 
-@FeignClient(name="com-weather-eureka-zuul",fallback = WeatherServiceFallback.class)
+@FeignClient(name="com-weather-eureka-zuul",url = "http://com-weather-eureka-zuul")
 public interface WeatherService {
 
     @GetMapping("/getWeather/cityId/{cityId}")
