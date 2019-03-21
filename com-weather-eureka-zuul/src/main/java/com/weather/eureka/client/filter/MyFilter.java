@@ -32,7 +32,7 @@ public class MyFilter extends ZuulFilter {
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
         String requestURI = request.getRequestURI();
-        log.info("ok");
+        log.info("bu ok");
         return null;
     }
 }
