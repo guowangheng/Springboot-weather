@@ -14,5 +14,6 @@ public class WeatherEurekaZuulApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(WeatherEurekaZuulApplication.class, args);
+        System.out.println("bbbb");
 	}
 }
